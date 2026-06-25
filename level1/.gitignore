@@ -91,3 +91,7 @@ CTestTestfile.cmake
 /_deps/
 /Testing/
 
+# Or all files with no extension (be careful)
+*
+!*.c
+!*.h
