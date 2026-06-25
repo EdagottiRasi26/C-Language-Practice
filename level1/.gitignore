@@ -73,6 +73,7 @@ Desktop.ini
 build/
 Build/
 CMakeBuild/
+raw/
 
 # If you don't use a separate build folder, CMake generates these in the root:
 CMakeFiles/
@@ -90,7 +91,3 @@ CTestTestfile.cmake
 /_deps/
 /Testing/
 
-# ==========================================
-# VS Code CMake Tools Extension Files
-# ==========================================
-.cmake/
