@@ -1,0 +1,96 @@
+# ==========================================
+# C Compiler & Build Outputs
+# ==========================================
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared libraries / Dynamic links
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables (Generic and platform-specific)
+*.exe
+*.out
+*.app
+# If you name your build folder 'build' or 'bin'
+bin/
+build/
+out/
+
+# Debug symbols and crash logs
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dump
+
+# ==========================================
+# Visual Studio Code Specific
+# ==========================================
+# Ignore workspace-specific settings if they contain local paths
+# (Optional: Keep tasks.json/launch.json if you want to share build configs)
+.vscode/
+# If you want to share build configs but hide personal settings, uncomment below:
+# .vscode/settings.json
+# .vscode/.browse.vc.db
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Keep tasks.json and launch.json, but ignore local workspace state
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# CMake Build Outputs & Artifacts
+# ==========================================
+# Ignore the entire build directory where CMake runs
+build/
+Build/
+CMakeBuild/
+
+# If you don't use a separate build folder, CMake generates these in the root:
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+Makefile
+cmake_pack.cmake
+cmake_uninstall.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+
+# In-source build artifacts (if you accidentally ran cmake in the root)
+/_deps/
+/Testing/
+
+# ==========================================
+# VS Code CMake Tools Extension Files
+# ==========================================
+.cmake/
