@@ -95,3 +95,7 @@ CTestTestfile.cmake
 *
 !*.c
 !*.h
+*st
+*nd
+*rd
+*th
