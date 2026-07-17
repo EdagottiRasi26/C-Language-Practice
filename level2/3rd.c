@@ -1,5 +1,5 @@
 // Write a loop program to print sum of 1 to 5.
-op:15
+//op:15
 
 #include<stdio.h>
 int main(){
@@ -8,4 +8,5 @@ int main(){
         sum = sum + i;
     }
         printf("sum:%d",sum);
+return 0;
 }

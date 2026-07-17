@@ -8,4 +8,5 @@ int main(){
             printf("2 digit odd numbers below is :%d\n",i);
         }
     }
+    return 0;
 }
